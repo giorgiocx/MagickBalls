@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MagickBalls</string>
+    <string name="bienvenido_al_himalaya">Bienvenido al Himalaya</string>
+    <string name="salseo">Conoce el Salseo</string>
+    <string name="salsa">Presiona para salsear</string>
+    <string name="todo">TODO</string>
+</resources>

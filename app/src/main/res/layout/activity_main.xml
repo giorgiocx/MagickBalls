@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textoPrincipal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="150px"
+        android:fontFamily="cursive"
+        android:text="@string/salseo"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/ball8"
+        android:layout_width="148dp"
+        android:layout_height="155dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="400px"
+        app:srcCompat="@drawable/magicBallStart" />
+
+    <TextView
+        android:id="@+id/textoSecundario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="cursive"
+        android:textSize="24sp"
+        android:layout_marginTop="100px"
+        android:text="@string/salsa" />
+
+</LinearLayout>
