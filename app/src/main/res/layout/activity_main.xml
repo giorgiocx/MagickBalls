@@ -23,7 +23,7 @@
         android:layout_height="155dp"
         android:layout_gravity="center"
         android:layout_marginTop="400px"
-        app:srcCompat="@drawable/magicBallStart" />
+        app:srcCompat="@drawable/magicballstart" />
 
     <TextView
         android:id="@+id/textoSecundario"
