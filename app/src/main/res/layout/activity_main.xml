@@ -5,24 +5,26 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="#5DADE2"
+    tools:ignore="ContentDescription">
 
     <TextView
         android:id="@+id/textoPrincipal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="150px"
-        android:fontFamily="cursive"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/amaranth_italic"
         android:text="@string/salseo"
         android:textSize="24sp" />
 
     <ImageView
         android:id="@+id/ball8"
-        android:layout_width="148dp"
-        android:layout_height="155dp"
+        android:layout_width="315dp"
+        android:layout_height="202dp"
         android:layout_gravity="center"
-        android:layout_marginTop="400px"
+        android:layout_marginTop="100dp"
         app:srcCompat="@drawable/magicballstart" />
 
     <TextView
@@ -30,9 +32,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:fontFamily="cursive"
-        android:textSize="24sp"
-        android:layout_marginTop="100px"
-        android:text="@string/salsa" />
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/amaranth_italic"
+        android:text="@string/salsa"
+        android:textColor="#7B241C"
+        android:textSize="24sp" />
 
 </LinearLayout>
